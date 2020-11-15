@@ -210,14 +210,14 @@ home = ["html", "json", "rss"]
 [params]
 cssFiles = ["default"]
 enableCDN = false
-hideEmptyStats = false
+hideEmptyStats = true
 highlightjs = true
 highlightjsLang = []
 highlightjsTheme = ""
 imageStretch = ""
 jsFiles = ["default"]
 readingTime = true
-removeBlur = false
+removeBlur = true
 socialShare = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
 viewMorePostsLink = "/blog/"
 [params.footer]
@@ -244,7 +244,7 @@ width = ""
 [params.meta]
 author = "HTML5UP and Hugo"
 description = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
-favicon = false
+favicon = true
 faviconVersion = "1"
 iOSColor = "#ffffff"
 msColor = "#ffffff"
@@ -253,11 +253,11 @@ svg = true
 about = "This theme was developed for Hugo static site generator."
 categories = true
 categoriesByCount = true
-postAmount = 5
+postAmount = "5"
 [params.staticman]
 api = ""
 branch = ""
-enabled = true
+enabled = false
 gitProvider = ""
 repo = ""
 username = ""
